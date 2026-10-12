@@ -50,7 +50,7 @@ Fault Diagnosis PoC replays real compressor telemetry through an emulated Modbus
 You need Docker with Compose v2 (2.24 or newer) and git; `make` is optional (the [Commands](#commands) table gives the underlying commands).
 
 ```bash
-git clone https://github.com/meddleconnect/jev-fault-diagnosis-poc.git
+git clone https://github.com/meddle-connect/jev-fault-diagnosis-poc.git
 cd jev-fault-diagnosis-poc
 cp .env.example .env    # optional: add TYPESAFE_API_KEY to enable Jev
 make up                 # same as: docker compose up --build -d --wait
